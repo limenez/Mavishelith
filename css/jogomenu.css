@@ -1,0 +1,102 @@
+.table1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Berlin Sans FB;
+    font-weight: bold;
+}
+
+.box {
+    width: 100px;
+    font-size: 40px;
+    font-weight: 600;
+    height: 90px;
+    padding: 0px 10px;
+    text-align: center;
+    border-radius: 10px;
+    background: rgb(231, 0, 108);
+    border-color: green;
+    color: #fff;
+    font-family: Berlin Sans FB;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn{
+    width: 300px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: red;
+    color: #fff;
+    border-radius: 10px;
+    color: #fff; 
+    border: 3px solid white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: Berlin Sans FB;
+    letter-spacing: 0.05cm;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(255, 187, 0);
+    transition: 0.2s;
+}
+.btn1{
+    width: 300px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(0, 132, 255);
+    color: #fff;
+    border-radius: 10px;
+    color: #fff; 
+    border: 3px solid white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: Berlin Sans FB;
+    letter-spacing: 0.05cm;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.btn3{
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(0, 38, 255);
+    color: #fff;
+    border-radius: 10px;
+    color: #fff; 
+    border: 3px solid white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: Berlin Sans FB;
+    letter-spacing: 0.05cm;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    background-color: rgb(12, 0, 122);
+}
+.resp{
+    font-size: 16px;
+    font-family: Berlin Sans FB;
+    font-weight: bold;
+    color: red;
+}
+input:focus{
+    background-color: rgb(0, 47, 255);
+}
+.simbolo{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}

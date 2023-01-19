@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/menu.css">
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="css/fundocss.css">
+    <link rel="stylesheet" href="css/jogomenu.css">
+    <link rel="stylesheet" href="css/capturacss.css">
+    <link rel = "icon" href = "img/icon.gif" type = “imagem/gif”/>
+    <title>Mavishelith | Camera</title>
+</head>
+<body id="output-color">
+    <div class="logoleft">
+        <a href="home.html"><img src="logo.png" width="400px" class="logo"></a> 
+        <div class="btn-container">
+            <button id="generate-btn"></button>
+            <button id="copy-btn" style="display: none;">Copiar</button>
+            <input type="text" id="output-code" readonly style="display: none;">
+            <script src="js/fundogradiente.js"></script>
+        </div>
+    </div>
+    <div class="tablemenu">
+
+        <center>
+        <div class="menu">
+            <a href="home.html"><button class="button button1">HOME</button></a>
+            <a href="jogos.html"><button class="button button2">JOGOS</button></a>
+            <a href="camera.html"><button class="button button3">CAMERA</button></a>
+            <a href="contato.html"><button class="button button4">CONTATO</button></a>
+        </div></center>
+    </div>
+    <article>
+        <div class="top-container">
+          <video id="video"></video>
+          <button id="photo-button" class="btn">
+            Tire Foto
+          </button>
+          <select id="photo-filter" class="btn3">
+            <option value="none">Normal</option>
+            <option value="saturate(150%)">Saturação</option>
+            <option value="grayscale(100%)">Preto e Branco</option>
+            <option value="sepia(100%)">Sépia</option>
+            <option value="invert(100%)">Invertida</option>
+            <option value="hue-rotate(90deg)">Matiz</option>
+            <option value="brightness(145%)">Brilho</option>
+            <option value="blur(10px)">Borrão</option>
+            <option value="contrast(200%)">Contraste</option>
+            <option value="contrast(1.3) hue-rotate(-15deg) saturate(.75)">Múltiplos</option>
+          </select>
+          <button id="clear-button" class="btn4">Limpar</button>
+          <canvas id="canvas"></canvas>
+        </div>
+        <div class="bottom-container">
+          <div id="photos"></div>
+        </div>
+        <script src="js/capturajs.js"></script>
+    </article>
+
+        <footer>
+        <p class="pfooter"><a href="home.html">HOME</a> - <a href="jogos.html">JOGO</a> - <a href="camera.html">CAMERA</a> - <a href="contato.html">CONTATO</a></p>
+        <p class="pfooter1">© Copyright Mavishelith 2021 All rights reserved. (Mário-Vitoria-Sheila-Lívia-Thais SENAI 2021 - 2TDS)</p>
+    </footer>
+</body>
+
+</html>
+

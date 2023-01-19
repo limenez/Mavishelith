@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/menu.css">
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="css/fundocss.css">
+    <link rel="stylesheet" href="css/jogomenu.css">
+    <link rel = "icon" href = "img/icon.gif" type = “imagem/gif”/>
+    <link href="css/image-puzzle.css" rel="stylesheet" />
+    <script src="js/image-puzzle.js"></script>
+    <title>Mavishelith | Quebra-Cabeça</title>
+</head>
+<body id="output-color">
+    <div class="logoleft">
+        <a href="home.html"><img src="logo.png" width="400px" class="logo"></a> 
+        <div class="btn-container">
+            <button id="generate-btn"></button>
+            <button id="copy-btn" style="display: none;">Copiar</button>
+            <input type="text" id="output-code" readonly style="display: none;">
+            <script src="js/fundogradiente.js"></script>
+        </div>
+    </div>   
+    <div class="tablemenu">
+
+        <center>
+        <div class="menu">
+            <a href="home.html"><button class="button button1 ">HOME</button></a>
+            <a href="jogos.html"><button class="button button2">JOGOS</button></a>
+            <a href="camera.html"><button class="button button3">CAMERA</button></a>
+            <a href="contato.html"><button class="button button4">CONTATO</button></a>
+        </div></center>
+    </div>
+    <article>
+        <h1>Quebra-Cabeça</h1>
+        <center>
+            <div id="collage">
+    
+                <div id="playPanel" style="padding:5px;display:none;">
+                    <h3 id="imgTitle"></h3>
+
+                    <div style="display:inline-block; margin:auto; width:95%; vertical-align:top;">
+                        <ul id="sortable" class="sortable"></ul>
+                        <div id="actualImageBox">
+                            <div id="stepBox">
+                                <div>Passos:</div>
+                                <div id="stepCount" class="stepCount">0</div>
+                            </div>
+                            <div id="timeBox">
+                                Tempo: <span id="timerPanel"></span> segundos
+                            </div>
+                            <!-- <img id="actualImage" /> -->
+                            <p id="levelPanel" style="display: none;">
+                                <input type="radio" name="level" id="easy"  value="3" onchange="imagePuzzle.startGame(images, this.value);"
+                                /> <label for="easy">Fácil</label>
+                                <input type="radio" name="level" id="medium" checked="checked"  value="4" onchange="imagePuzzle.startGame(images, this.value);" /><label for="medium">Médio</label>
+                                <input type="radio" name="level" id="hard" value="5" onchange="imagePuzzle.startGame(images, this.value);" /><label for="hard">Difícil</label>
+                            </p>
+                            <div><br>
+                                <button id="newPhoto" type="button" class="btn1" onclick="restart();">Novo</button>
+                                <a href="jogos.html"><button class="button button1 btnvoltar">Voltar</button></a>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>  
+                <div id="gameOver" style="display:none;">
+                    <div style="background-color: #0099ff; padding: 5px 10px 20px 10px; text-align: center; ">
+                        <div class="tx1">
+                        <h2 style="text-align:center">Fim de jogo!!</h2>
+                        Parabéns!! <br /> Você completou esta foto.
+                        <br /> Passos: <span id="stepCount" class="stepCount">0</span>
+                        <br /> Tempo: <span class="timeCount">0</span> segundos</div>
+                        <div><br>
+                            <button type="button" onclick="window.location.reload(true);" class="btn">Jogar novamente</button>
+                        </div>
+                    </div>
+                </div>
+        
+                <script>
+                    var images = [
+                        { src: 'img/Aladdin.jpg', title: 'Aladdin' },
+                        { src: 'img/mickey.jpg', title: 'Mickey e Minnie' },
+                        { src: 'img/reileao.jpg', title: 'Rei Leão' },
+                        { src: 'img/toy.jpg', title: 'Toy Story' }
+                        
+                    ];
+        
+                    window.onload = function () {
+                        var gridSize = document.querySelector('#levelPanel input[type="radio"]:checked').getAttribute('value');
+                        imagePuzzle.startGame(images, gridSize);
+                        
+                    };
+                    function restart() {
+                        var gridSize = document.querySelector('#levelPanel input[type="radio"]:checked').getAttribute('value');
+                        imagePuzzle.startGame(images, gridSize);
+                    }
+                </script>
+            </div>
+
+      
+      
+    </center>
+    </article>
+    <footer>
+        <p class="pfooter"><a href="home.html">HOME</a> - <a href="jogos.html">JOGO</a> - <a href="camera.html">CAMERA</a> - <a href="contato.html">CONTATO</a></p>
+        <p class="pfooter1">© Copyright Mavishelith 2021 All rights reserved. (Mário-Vitoria-Sheila-Lívia-Thais | SENAI 2021 - 2TDS)</p>
+    </footer>
+</body>
+
+</html>
+

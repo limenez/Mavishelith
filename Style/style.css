@@ -1,0 +1,305 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to bottom,#ffa500, #cb410b);
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.logoleft{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    padding: 15px;
+
+}
+.tablemenu {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    padding: 0px 15px 5px 15px;
+
+}
+
+article {
+    width: 1000px;
+    height: auto;
+    padding: 15px;
+    padding-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    display: grid;
+    place-content: center; 
+}
+.table2{
+    width: 1000px;
+    height: auto;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+
+.tb1 {
+    float: left;
+    background-color: rgb(18, 177, 18);
+    width: 320px;
+    height: 480px;
+
+    font-family: Verdana;
+    color: white;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 10px;
+    display: grid;
+    place-content: center;
+ 
+    /* background-image: url(../img/fundo1.jpg) no-repeat; */
+
+}
+.tb1:hover{
+    background-color: rgb(0, 95, 24);
+    transition: 0.1s;
+}
+
+.tb2 {
+    float: left;
+    background-color: orange;
+    width: 320px;
+    height: 480px;
+    font-family: Verdana;
+    color: white;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 10px;
+    display: grid;
+    place-content: center;
+}
+
+.tb2:hover{
+    background-color: rgb(255, 102, 0);
+    transition: 0.1s;
+}
+
+.tb3 {
+    float: left;
+    background-color: blue;
+    width: 320px;
+    height: 480px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    display: grid;
+    place-content: center;
+
+
+}
+.tb3:hover{
+    background-color: rgb(13, 0, 134);
+    transition: 0.1s;
+}
+
+footer {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color:rgb(126, 126, 126);
+    width: 1030px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    margin-top: 30px;   
+    margin-left: auto; 
+    margin-right: auto;
+}
+.pfooter{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0px;
+    line-height: 0;
+    
+    
+
+}
+.pfooter1{
+    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    letter-spacing: 0px;
+    line-height: 0;
+
+}
+p{
+    font-size: 17px;
+    font-family: Berlin Sans FB;
+    font-weight: bold;
+    margin: 25px;
+    letter-spacing: 3px;
+    line-height: 1.2;
+} 
+a{
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+
+}
+a:link{
+    color:rgb(126, 126, 126);
+}
+a:visited{
+    color:rgb(126, 126, 126);
+}
+h2{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-family: Berlin Sans FB;
+    color: blueviolet;
+}
+h3{
+    text-align: center;
+    font-family: Berlin Sans FB;
+    color: rgb(43, 70, 226);
+}
+@media screen and (max-width: 1200px) {
+    *{
+        transition-duration: 0.4s;
+    }
+}
+
+@media screen and (max-width: 1005px) {
+    article, img, .logoleft {
+        max-width: 700px;
+        transition-duration: 0.4s;
+        
+    }
+    .logo{
+        width: 300px;
+        transition-duration: 0.4s;
+    }
+    .tb1, .tb2, .tb3{
+        width: 699px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        transition-duration: 0.4s;
+    }
+    footer{
+        width: 730px;
+        transition-duration: 0.4s;
+    }
+    .tablemenu{
+        width: 700px;
+        transition-duration: 0.4s;
+    }
+    .jmenu{
+       width: 600px;
+       transition-duration: 0.4s;
+    }
+    .jbutton{
+        width: 600px;
+        transition-duration: 0.4s;
+    }
+    iframe{
+        width: 600px;
+        transition-duration: 0.4s;
+    }
+}
+@media screen and (max-width: 800px) {
+    article, img, .logoleft {
+        max-width: 600px;
+        
+        margin-top: 5px;
+        
+    }
+    .logo{
+        width: 280px;
+        
+    }
+    .tb1, .tb2, .tb3{
+        width: 599px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    footer{
+        width: 630px;
+        
+    }
+    .tablemenu{
+        width: 630px;
+        
+        padding: 0;
+    }
+    .menu .button{
+        width: 150px;
+        font-size: 14px;
+        
+    }
+    .jmenu{
+       width: 600px;
+       
+    }
+    .jbutton{
+        width: 530px;
+        
+    }
+    iframe{
+        width: 600px;
+        
+    }
+    .pfooter1{
+        font-size: 12px;
+        font-family:Arial, Helvetica, sans-serif;
+        line-height: 20px;
+    }
+}
+@media screen and (max-width: 600px) {
+    article, img, .logoleft {
+        max-width: 500px;
+ 
+    }
+    article p{
+        font-size: 14px;
+
+    }
+    .tb1, .tb2, .tb3{
+        width: 499px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    footer{
+        width: auto;
+    }
+    .tablemenu{
+        width: 500px;   
+    }
+    .menu .button{
+        width: 110px;
+        font-size: 14px;
+    }
+    .logo{
+        width: 250px;
+    }
+    .pfooter1{
+        font-size: 10px;
+        font-family:Arial, Helvetica, sans-serif;
+        line-height: 20px;
+    }
+    .jmenu{
+        width: 400px;
+    }
+    .jbutton{
+       width: 400px;
+    }
+    iframe{
+        width: 500px;
+    }
+}

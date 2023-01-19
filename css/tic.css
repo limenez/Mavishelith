@@ -1,0 +1,146 @@
+    body{
+        background-color: orangered;
+    }
+	h1 {
+		font-size: 35px;
+	}
+   
+	#b1, #b2, #b3, #b4, #b5,
+	#b6, #b7, #b8, #b9 {
+		width: 90px;
+		height: 80px;
+		margin: auto;
+		border: 1px solid gray;
+		border-radius: 6px;
+		font-size: 40px;
+		text-align: center;
+        margin: 0px;
+        font-weight: bold;
+		background-color:darkmagenta;
+		color: #fff;
+	}
+	#b1:hover {
+		background-color: rgb(255, 95, 194);
+		cursor: pointer;
+		transition: 0.2s;
+		width: 95px;
+		height: 85px;
+	}
+	#b2:hover {
+		background-color: rgb(255, 95, 194);
+		cursor: pointer;
+		transition: 0.2s;
+		width: 95px;
+		height: 85px;
+	}
+	#b3:hover {
+		background-color: rgb(255, 95, 194);
+		cursor: pointer;
+		transition: 0.2s;
+		width: 95px;
+		height: 85px;
+	}
+	#b4:hover {
+		background-color: rgb(255, 95, 194);
+		cursor: pointer;
+		transition: 0.2s;
+		width: 95px;
+		height: 85px;
+	}
+	#b5:hover {
+		background-color: rgb(255, 95, 194);
+		cursor: pointer;
+		transition: 0.2s;
+		width: 95px;
+		height: 85px;
+	}
+	#b6:hover {
+		background-color: rgb(255, 95, 194);
+		cursor: pointer;
+		transition: 0.2s;
+		width: 95px;
+		height: 85px;
+	}
+	#b7:hover {
+		background-color: rgb(255, 95, 194);
+		cursor: pointer;
+		transition: 0.2s;
+		width: 95px;
+		height: 85px;
+	}
+	#b8:hover {
+		background-color: rgb(255, 95, 194);
+		cursor: pointer;
+		transition: 0.2s;
+		width: 95px;
+		height: 85px;
+	}
+	#b9:hover {
+		background-color: rgb(255, 95, 194);
+		cursor: pointer;
+		transition: 0.2s;
+		width: 95px;
+		height: 85px;
+	}
+
+
+
+	#but {
+		box-sizing: border-box;
+		background-color: dodgerblue;
+		width: 300px;
+		height: 50px;
+		font-size: 16px;
+		font-weight: bold;
+		color: #fff;
+		border-radius: 10px;
+		color: #fff; 
+		border: 3px solid white;
+		border-radius: 10px;
+		font-weight: bold;
+		font-family: Berlin Sans FB;
+		letter-spacing: 0.05cm;
+		cursor: pointer;
+	}
+	#but:hover {
+		box-sizing: border-box;
+		background-color: rgb(14, 0, 138);
+		width: 300px;
+		height: 50px;
+		font-size: 16px;
+		font-weight: bold;
+		color: #fff;
+		border-radius: 10px;
+		color: #fff; 
+		border: 3px solid white;
+		border-radius: 10px;
+		font-weight: bold;
+		font-family: Berlin Sans FB;
+		letter-spacing: 0.05cm;
+		transition: 0.2s;
+	}
+	#print {
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+
+		color: dodgerblue;
+		font-size: 20px;
+	}
+
+
+	#main {
+		text-align: center;
+        width: 1000px;
+        height: auto;
+  
+	}
+
+
+	#ins {
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+			
+		color: red;
+		font-size: 17px;
+		letter-spacing: 0;
+	}

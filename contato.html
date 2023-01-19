@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/menu.css">
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="css/contato.css"/>
+    <link rel="stylesheet" href="css/fundocss.css">
+    <link rel = "icon" href = "img/icon.gif" type = “imagem/gif”/>
+    <title>Mavishelith | Contato</title>
+</head>
+<body id="output-color">
+    <div class="logoleft">
+        <a href="home.html"><img src="logo.png" width="400px" class="logo"></a> 
+        <div class="btn-container">
+            <button id="generate-btn"></button>
+            <button id="copy-btn" style="display: none;">Copiar</button>
+            <input type="text" id="output-code" readonly style="display: none;">
+            <script src="js/fundogradiente.js"></script>
+        </div>
+    </div>  
+    <div class="tablemenu">
+        <center>
+        <div class="menu">
+            <a href="home.html"><button class="button button1">HOME</button></a>
+            <a href="jogos.html"><button class="button button2">JOGOS</button></a>
+            <a href="camera.html"><button class="button button3">CAMERA</button></a>
+            <a href="contato.html"><button class="button button4">CONTATO</button></a>
+        </div></center>
+    </div>
+    <article >
+        <form action="" method="POST" class="modelo1">
+            <h1>Formulário de Contato<br/>
+           <span class="titulo2">Preencha Todas as Informações</span>
+       </h1>
+       <div>
+           <div class="rotulos">Nome :</div>
+           <input id="nome" type="text" name="nome" placeholder="Nome completo" class="entrada" />
+        </div>
+    
+       <div>
+           <div class="rotulos">Email :</div>  
+           <input id="Email" type="text" name="Email" placeholder="Email Válido" class="entrada" />
+       </div>
+    
+       <div>
+        <div class="rotulos">Telefone :</div>
+            <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone" 
+            class="entrada">
+        </div>
+    
+        <div class="rotulos">Endereço :</div>
+            <input type="text" id="Endereço" name="Endereço" placeholder="Digite seu Endereço" class="entrada">
+        </div>
+    
+        <div class="field radiobox">
+            <center><span style="margin-left: 70px;">Deseja receber nossas novidades?</span>
+            <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
+            <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label></center>
+        </div>
+    
+        <div>
+        <div class="rotulos">Assunto :</div>
+        <select name="opcoes" class="entrada">
+            <option value=""></option>
+            <option value="Duvidas">Dúvidas</option>
+            <option value="Sugestao">Sugestão</option>
+        </select>
+        </div>
+    
+        <div><br>
+            <div class="rotulos">Sua mensagem:</div>
+            <textarea id="mensagem" name="mensagem"  placeholder="Mensagem" class="entrada" required></textarea>
+        </div>
+        <div><br>
+        <center><input type="button" name="acao" value="Enviar" class="botao"></center>
+       </div>
+    
+        </form>  
+        <div><center>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.7104695800654!2d-46.62367648440724!3d-23.54291376679787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce58e2bbca74b9%3A0x421b5bea24fca3ab!2sEscola%20SENAI%20%E2%80%9CRoberto%20Simonsen%E2%80%9C!5e0!3m2!1spt-BR!2sbr!4v1637870553772!5m2!1spt-BR!2sbr" width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></center>
+        </div>
+    </article>
+
+
+    <footer>
+        <p class="pfooter"><a href="home.html">HOME</a> - <a href="jogos.html">JOGO</a> - <a href="camera.html">CAMERA</a> - <a href="contato.html">CONTATO</a></p>
+        <p class="pfooter1">© Copyright Mavishelith 2021 All rights reserved. (Mário-Vitoria-Sheila-Lívia-Thais | SENAI 2021 - 2TDS)</p>
+    </footer>
+</body>
+
+</html>
+

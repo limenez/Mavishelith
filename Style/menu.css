@@ -1,0 +1,103 @@
+@font-face {
+    font-family: Berlin Sans FB;
+    src: url(BRLNSB.TTF) format("truetype");
+    src: url(BRLNSDB.TTF) format("truetype");
+    src: url(BRLNSR.TTF) format("truetype");
+}
+.menu{
+    margin-left: auto;
+    margin-right: auto;
+}
+.jmenu{
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.button {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 150px;
+  height: 50px; 
+  letter-spacing: 0.05cm;
+}
+.jbutton {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 800px;
+  height: 100px; 
+}
+.button1, .button2, .button3, .button4{
+  background-color: #4CAF50;
+  color: #fff; 
+  border: 3px solid white;
+  border-radius: 10px;
+  font-weight: bold;
+  font-family: Berlin Sans FB;
+}
+.btnvoltar{
+  width: 300px;
+}
+.jbutton1, .jbutton2, .jbutton3, .jbutton4, .jbutton5, .jbutton6{
+  background-color: #4CAF50;
+  color: #fff; 
+  border: 2px solid white;
+  border-radius: 10px;
+  font-weight: bold;
+  font-family: Berlin Sans FB;
+  font-size: 20px;
+  letter-spacing: 0.15cm;
+
+}
+
+.button1:hover {
+  background-color: #f700ff;
+  color: #fff; 
+}
+.button2:hover {
+  background-color: red;
+  color: #fff; 
+}
+.button3:hover {
+  background-color: blue;
+  color: #fff; 
+}
+.button4:hover {
+  background-color: orangered;
+  color: #fff; 
+}
+.jbutton1:hover {
+  background-color: #f700ff;
+  color: #fff; 
+}
+.jbutton2:hover {
+  background-color: red;
+  color: #fff; 
+}
+.jbutton3:hover {
+  background-color: blue;
+  color: #fff; 
+}
+.jbutton4:hover {
+  background-color: rgb(0, 195, 255);
+  color: #fff; 
+}
+.jbutton5:hover {
+  background-color: rgb(255, 208, 0);
+  color: #fff; 
+}
+.jbutton6:hover {
+  background-color: rgb(212, 96, 0);
+  color: #fff; 
+}
